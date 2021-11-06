@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 #include <cstdio>
@@ -85,7 +85,7 @@ void d() {
 
 	if (!(fexists("txt.txt"))) {
 		cout << "Pink Credit Card Beautifier by Raypun" << endl << endl;
-		cout << "'txt.txt' isimli dosyaya düzeltilecek kartlarý yapýþtýrýnn  /  Paste the cards into a file named 'txt.txt'" << endl;
+		cout << "'txt.txt' isimli dosyaya dÃ¼zeltilecek kartlarÃ½ yapÃ½Ã¾tÃ½rÃ½nn  /  Paste the cards into a file named 'txt.txt'" << endl;
 
 	}
 	else {
@@ -155,7 +155,7 @@ void d() {
 		remove("output.txt");
 
 		cout << "Pink Credit Card Beautifier by Raypun" << endl << endl;
-		cout << "'duzeltilenler.txt' içine kaydedildi  /  Saved into 'duzeltilenler.txt'" << endl<<endl<<endl;
+		cout << "'duzeltilenler.txt' iÃ§ine kaydedildi  /  Saved into 'duzeltilenler.txt'" << endl<<endl<<endl;
 	}
 }
 
